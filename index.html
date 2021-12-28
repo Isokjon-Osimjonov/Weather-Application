@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather_container">
+        <div class="weather_position">
+          <h1 class="main_position"> <img src="./location-pin (1).png" alt=""><p class="city_name"></p> </h1>
+          <p class="detailed_position"></p>
+          <h1 class="main_temperature"></h1>
+          <h1 class="main_status"><p class="status"></p> <img class="weather_image" alt=""></h1>
+          <h2 class="main_calendar"> <img src="./calendar (1).png" alt=""><p class="calendar"></p></h2>
+        </div>
+        <div class="searchbar">
+            <div class="input_wrapper">
+                <img src="./search-interface-symbol.png" alt="">
+                <form>
+                  <input type="text" autofocus placeholder="Search city">
+                </form>
+            </div>
+            <div class="weather_map">
+                <div class="map">
+                    <iframe width="100%" height="100%"  src="weather.html" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="forecast">
+
+      </div>
+
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
